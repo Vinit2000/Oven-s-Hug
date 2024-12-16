@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f0e7;
+}
+
+header {
+    background-color: #d9a067;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #55300d;
+    font-family: "Dancing Script";
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #53441e;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact{
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 32px;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 32px;
+    color: #d9a067;
+    margin-bottom: 24px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact-details{
+    flex: 1;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0,0,0);
+}
+
+.contact-details h3{
+    color: #d9a067;
+    margin-bottom: 24px;
+}
+
+.contact-details p{
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.contact-form{
+    flex: 1;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.contact-form h3{
+    color: #d9a067;
+    margin-bottom: 16px;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label{
+    font-weight: bolder;
+    margin-bottom: 0.3rem;
+}
+
+.contact-form input, .contact-form textarea{
+    padding: 0.8rem;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #d9a067;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #b58247;
+}
+
